@@ -1,0 +1,17 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.associations": {
+    ".prettierrc": "json"
+  },
+  // workaround to vscode bug: there is no ts compilation error but vscode complines so this setting is needed:
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "mochaExplorer.require": "ts-node/register/files",
+  "mochaExplorer.files": "packages/hardhat-cvi-2/test/**/*.test.ts",
+  "mochaExplorer.cwd": "packages/hardhat-cvi-2"
+}

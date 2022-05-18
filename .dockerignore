@@ -1,0 +1,10 @@
+.history
+.git
+winston.log.*
+node_modules
+logs
+cache
+.next
+artifacts
+abis-do-not-use
+all-localhost-abis.json

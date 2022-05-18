@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "types": [
+      "vitest/importMeta"
+    ],
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "useUnknownInCatchVariables": false,
+    "sourceMap": true,
+    "strict": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "ES2019",
+    "lib": [
+      "esnext",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "preserveSymlinks": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "composite": false,
+    "baseUrl": "packages",
+    "paths": {
+      "@coti-cvi/tests-infra-be": [
+        "tests-infra-be/src/index.ts"
+      ],
+      "@coti-cvi/common-be": [
+        "common-be/src/index.ts"
+      ],
+      "@coti-cvi/lw-sdk": [
+        "lw-sdk/src/index.ts"
+      ]
+    },
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "incremental": false,
+    "isolatedModules": true
+  },
+  "files": [
+    "vitest.config.ts",
+    "vitest.before-all.ts",
+    "declarations.d.ts"
+  ],
+  "include": [
+    "packages/*/vite.config.ts",
+    "packages/*/hardhat.config.ts",
+    "packages/*/src",
+    "packages/beta-cvi-ui/*",
+    "packages/*/__tests__",
+    "packages/*/test",
+    "packages/contracts-core/src/output/*.json",
+    "packages/hardhat-cvi-2/create-auto-generated-code"
+  ]
+}

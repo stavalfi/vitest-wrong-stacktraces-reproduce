@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+yarn workspace hardhat-cvi-2 clean
+yarn

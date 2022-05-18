@@ -1,0 +1,31 @@
+{
+  "name": "il-backend",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "private": true,
+  "scripts": {
+    "start:dev": "nodemon",
+    "start:prod": "node dist/src/index.js"
+  },
+  "dependencies": {
+    "inversify": "^6.0.1",
+    "@coti-cvi/lw-sdk": "1.0.0",
+    "@coti-cvi/common-be": "^1.0.0",
+    "@cspotcode/source-map-support": "0.6.1",
+    "@nestjs/common": "8.4.0",
+    "@nestjs/core": "8.4.0",
+    "@nestjs/platform-fastify": "8.4.0",
+    "@nestjs/swagger": "5.2.0",
+    "class-transformer": "0.5.1",
+    "class-validator": "0.13.2",
+    "fastify": "3.27.2",
+    "axios": "^0.25.0",
+    "lodash": "^4.17.21",
+    "nest-winston": "^1.6.0",
+    "prom-client": "^13.1.0",
+    "reflect-metadata": "^0.1.13",
+    "winston": "^3.3.3"
+  }
+}
