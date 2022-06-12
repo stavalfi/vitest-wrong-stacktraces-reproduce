@@ -266,14 +266,6 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@coti-cvi/contracts-core@^1.0.0":
-  version "1.0.131"
-  resolved "https://registry.yarnpkg.com/@coti-cvi/contracts-core/-/contracts-core-1.0.131.tgz#4d85997e530e2074937f6be5592a6e540c21eab9"
-  integrity sha512-Q8qyGkD64VmPQGMTo2AVYvbPnSbBDBZzzU0oLPyOPZYK9mLV9UYweU58DmVTCBWPo1VXftQB5qjqhN0vKr+CkQ==
-  dependencies:
-    axios "^0.25.0"
-    ethers "^5.6.0"
-
 "@cspotcode/source-map-consumer@0.8.0":
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/@cspotcode/source-map-consumer/-/source-map-consumer-0.8.0.tgz#33bf4b7b39c178821606f669bbc447a6a629786b"
